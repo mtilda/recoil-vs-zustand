@@ -2,6 +2,8 @@ import { useCharacterCounterStore } from '../state/characterCounter';
 
 
 const TextInput = () => {
+  console.log('zustand/components/TextInput');
+
   const { textInput, setTextInput } = useCharacterCounterStore();
 
   const onChange = (event) => {

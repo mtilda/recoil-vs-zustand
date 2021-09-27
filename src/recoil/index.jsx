@@ -3,6 +3,8 @@ import CharacterCounter from './components/CharacterCounter';
 
 
 function App() {
+  console.log('recoil/App');
+
   return (
     <section>
       <RecoilRoot>
