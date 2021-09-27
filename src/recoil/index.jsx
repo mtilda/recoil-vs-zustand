@@ -4,9 +4,12 @@ import CharacterCounter from './components/CharacterCounter';
 
 function App() {
   return (
-    <RecoilRoot>
-      <CharacterCounter />
-    </RecoilRoot>
+    <section>
+      <RecoilRoot>
+        <h1>recoil</h1>
+        <CharacterCounter />
+      </RecoilRoot>
+    </section>
   );
 }
 

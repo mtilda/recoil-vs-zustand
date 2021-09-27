@@ -3,7 +3,10 @@ import CharacterCounter from './components/CharacterCounter';
 
 function App() {
   return (
-    <CharacterCounter />
+    <section>
+      <h1>zustand</h1>
+      <CharacterCounter />
+    </section>
   );
 }
 
